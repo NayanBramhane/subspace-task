@@ -11,10 +11,15 @@
 
 All are GET requests.
 
-- /api/blog-stats
-- /api/blog-search?query=privacy
+- http://localhost:4000/api/blog-stats
+- http://localhost:4000/api/blog-search?query=privacy
 
 Note : replace 'privacy' with the term you want to search
+
+### Curl API endpoints.
+
+- curl --request GET --url http://localhost:4000/api/blog-stats
+- curl --request GET --url http://localhost:4000/api/blog-search?query=privacy
 
 ### Implemented all :
 
